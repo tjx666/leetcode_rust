@@ -1,1 +1,2 @@
 mod s0704_binary_search;
+mod s0088_merge_sorted_array;
