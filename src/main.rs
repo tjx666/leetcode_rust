@@ -1,3 +1,4 @@
-fn main() {
-    println!("Hello, world!");
-}
+#![allow(dead_code)]
+#![allow(unused_variables)]
+
+fn main() {}

@@ -1,5 +1,3 @@
-#![allow(dead_code)]
-
 pub struct Solution {}
 
 impl Solution {
@@ -10,7 +8,7 @@ impl Solution {
     pub fn merge(nums1: &mut Vec<i32>, m: i32, nums2: &mut Vec<i32>, n: i32) {
         let mut m = m as usize;
         let mut n = n as usize;
-        let mut index = m + n ;
+        let mut index = m + n;
 
         while m > 0 && n > 0 {
             let _m = m - 1;
